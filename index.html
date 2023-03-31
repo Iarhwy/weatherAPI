@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Погода</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="card">
+    <div class="card__wrapper">
+      <div class="card__shape card__shape-1"></div>
+      <div class="card__shape card__shape-2"></div>
+      <div class="card__container">
+        <div class="card__container-search">
+          <input type="text" placeholder="Введите название города" id="card__city" value="Кореновск">
+          <button id="card__btn-search">Поиск</button>
+        </div>
+        <div id="card__result" class="weather"></div>
+      </div>
+    </div>
+    <script src="key.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
